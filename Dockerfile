@@ -8,7 +8,8 @@ RUN apt-get update \
 RUN chown git:git /home/git/data
 
 RUN mkdir /home/git/data/tmp
-RUN chown git:git /home/git/data/tmp
+RUN cd /home/git/data/tmp
+RUN chown git:git .
 
 EXPOSE 80/tcp
 

@@ -6,9 +6,9 @@ RUN apt-get update \
 	&& apt-get clean
 
 RUN mkdir /home/git/data/tmp
-RUN cd /home/git/data/tmp
-RUN chown git:git .
-RUN chown git:git /home/git/data
+# RUN cd /home/git/data/tmp
+# RUN chown git:git .
+# RUN chown git:git /home/git/data
 
 EXPOSE 80/tcp
 

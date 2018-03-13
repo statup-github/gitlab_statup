@@ -5,10 +5,6 @@ RUN apt-get update \
 	&& apt-get -o Dpkg::Options::="--force-confold" install -y zip unzip\
 	&& apt-get clean
 
-
-RUN mkdir /home/git
-RUN chown git:git /home/git
-
 RUN mkdir /home/git/data
 RUN chown git:git /home/git/data
 

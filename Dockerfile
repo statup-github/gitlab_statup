@@ -1,4 +1,4 @@
-FROM sameersbn/gitlab:11.2.3
+FROM sameersbn/gitlab:11.4.5
 MAINTAINER Stefan Fritsch <fritsch@stat-up.com>
 
 RUN apt-get update \
@@ -6,6 +6,7 @@ RUN apt-get update \
 	&& apt-get clean
 
 RUN mkdir /home/git/data/tmp
+RUN mkdir /home/git/gitlab_backups
 # RUN cd /home/git/data/tmp
 # RUN chown git:git .
 # RUN chown git:git /home/git/data

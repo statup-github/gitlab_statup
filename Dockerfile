@@ -1,4 +1,4 @@
-FROM sameersbn/gitlab:latest
+FROM sameersbn/gitlab:11.7
 MAINTAINER Stefan Fritsch <fritsch@stat-up.com>
 
 RUN apt-get update \

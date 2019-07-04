@@ -1,14 +1,11 @@
-FROM sameersbn/gitlab:11.10.4
-MAINTAINER Stefan Fritsch <fritsch@stat-up.com>
+FROM sameersbn/gitlab:11.11.3
+LABEL maintainer="Stefan Fritsch <fritsch@stat-up.com>"
 
 RUN apt-get update \
 	&& apt-get -o Dpkg::Options::="--force-confold" install -y zip unzip\
 	&& apt-get clean
 
-RUN mkdir /home/git/data/tmp
-# RUN cd /home/git/data/tmp
-# RUN chown git:git .
-# RUN chown git:git /home/git/data
+RUN mkdir -p /home/git/data/tmp
 
 EXPOSE 22/tcp 80/tcp 443/tcp
 

@@ -1,4 +1,4 @@
-FROM sameersbn/gitlab:12.0.3
+FROM sameersbn/gitlab:12.1.6
 LABEL maintainer="Stefan Fritsch <fritsch@stat-up.com>"
 
 RUN apt-get update \

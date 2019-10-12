@@ -1,4 +1,5 @@
 FROM sameersbn/gitlab:12.3.5
+LABEL org.opencontainers.image.created = "2019-10-12T22:20:13+0200"
 LABEL maintainer="Stefan Fritsch <fritsch@stat-up.com>"
 
 RUN apt-get update \

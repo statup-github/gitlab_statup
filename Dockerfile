@@ -1,21 +1,5 @@
 FROM sameersbn/gitlab:12.3.5
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
-LABEL org.opencontainers.image.created = "2019-10-14T12:39:09+0000"
+LABEL org.opencontainers.image.created = "2019-10-14T13:14:10Z"
 LABEL maintainer="Stefan Fritsch <fritsch@stat-up.com>"
 
 RUN apt-get update \
